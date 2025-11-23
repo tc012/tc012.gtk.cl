@@ -71,3 +71,10 @@ button {
 	 display: flex;
 }
 
+/* metadata line (date) */
+.post-meta {
+  color: #cfcfcf;
+  font-size: 13px;
+  margin-bottom: 18px;
+}
+

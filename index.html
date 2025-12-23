@@ -9,37 +9,47 @@
 <link rel="icon" type="image/x-icon" href="/assets/favicon.png">
 <script src="/script.js" defer> </script>
 </head>
-
 <body>
 <center>
 
 <div class="content"> 
-<div class="title"> <h1> <i> tc012.gtk.cl productions </i> </h1> </div>
+<h1 class="title"> <i> tc012.gtk.cl productions </i> </h1>
 
 <div class="links"> 
 <button class="button" onclick="window.location.href='/';">
+<div class="btn" style="border: .114rem inset white;">
 Home
+</div>
 </button>
+ 
 <button class="button" onclick="window.location.href='https://tc012.gtk.cl/files';">
+<div class="btn">
 Downloads and Files
+</div>
 </button>
+
 <button class="button" onclick="window.location.href='https://github.com/tc012';">
+<div class="btn">
 Github
+</div>
 </button>
-</div> </div>
+
+</div>
 
 <div class="content">
 <h3> Welcome to my site! </h3>
 <p class="text"> Hi, I'm tc012, a dude who messes with technology and a fellow programmer, recently I have been learning CSS which is why this page has been overhauled.</p>
 </div>
 
-<div class="content">
- <p> radio.plaza.one - vaporwave </p>
-  <dt>
-  <button onclick="playStream()" type="button"> <img src="/assets/svg/play-fill.svg" width="16" height="16"> </button>
-  <button onclick="StopStream()" type="button"> <img src="/assets/svg/stop-fill.svg" width="16" height="16"> </button>
-  </div>
 
+
+<div class="content">
+ <main class="audio-container">  radio.plaza.one - vaporwave </main>
+  <dt>
+  <button onclick="playStream()" type="button"> <img src="/assets/svg/play-fill.svg" width="16" height="16" </button>
+  <button onclick="StopStream()" type="button"> <img src="/assets/svg/stop-fill.svg" width="16" height="16" </button>
+  </div>
+  </div>
 <audio id="radiovapor">
   <source src="https://radio.plaza.one/mp3" type="audio/mpeg">
 Your browser does not support the audio element.

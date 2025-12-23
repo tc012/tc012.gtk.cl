@@ -44,14 +44,10 @@ button {
     font-size: 16px
 }
 
-.buttonpressedin {
-	border: .0625rem solid black;
-}
 
-.links {
+.button {
     text-align: center; 
-    padding-top: .944rem;
-    padding-bottom: .944rem;
+    margin-bottom: .944rem;
 }
 
 .alert {

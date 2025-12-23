@@ -10,13 +10,13 @@ color: #000000;
 }
 
 p {
-padding-left: 5px;
-padding-right: 5px;
+margin-left: 5px;
+margin-right: 5px;
 }
 
 h1 {
-padding-left: 5px;
-padding-right: 5px;
+margin-left: 5px;
+margin-right: 5px;
 }
 
 .title {
@@ -73,7 +73,6 @@ button {
 .audio-container {
     padding-left: 10px;
     padding-right: 10px;
-    padding-top: 10px;
 
 }
 

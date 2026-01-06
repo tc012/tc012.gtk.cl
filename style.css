@@ -1,106 +1,52 @@
-a {
-  color: rgb(0, 0, 0);
-}
-
-body {
-font-family: w95fa;
-background-image: url("assets/21.gif");
-background-size: cover;
-color: #000000;
-}
-
-p {
-margin-left: 5px;
-margin-right: 5px;
-}
-
-h1 {
-margin-left: 5px;
-margin-right: 5px;
-}
-
-.title {
-display: flex;
-justify-content: center;
-}
- 
-
-.footer { 
-    position: fixed;     
-    text-align: center;    
-    bottom: 4px; 
+.nav {
+    background-color: #20201f;
+    border-color: #484444;
+    border-style: solid;
+    border-width: 2px;
     width: 100%;
-    color:white;
-
-   }  
-
-button {
-    border: .125rem outset white;
-    padding: .125rem .1875rem .125rem .1875rem;
-	  margin: .25rem .25rem .25rem .5rem;
-    border-radius: .0625rem;
-    font-family: w95fa;
-    font-size: 16px
+    
+    margin: 10px;
+    padding-bottom: 10px;
+    align-items: center;
 }
 
-
-.button {
-    text-align: center; 
-    margin-bottom: .944rem;
+.ptitle, {
+    margin:15px;
 }
-
-.alert {
-  color: #595151;
-  font-size: 16px;
-  margin-bottom: 18px;
-}
-
 .content {
- flex-wrap: wrap;
- flex-direction: column;
- width: 90rem;
- max-width: 40.1rem;
- margin: 10px;
- padding: 2px;
- background-color: #dddfe7;
- border-style: solid;
- border-width: 0.1cm;
- border-color: #c0c2ca;
+    background-color: #20201f;
+    border-color: #484444;
+    border-style: solid;
+    border-width: 2px;
+    width: 100rem;
+    max-width: 40rem;
+    margin: 10px;
+    padding-bottom: 10px;
 }
 
-
-.audio-container {
-    padding-left: 10px;
-    padding-right: 10px;
-
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 10px;
+    opacity: 40%;
 }
-
-button:hover {
-    text-decoration: underline;
-  }
-
-  @media (prefers-color-scheme: dark) {
-.content {
- flex-wrap: wrap;
- flex-direction: column;
- width: 90rem;
- max-width: 40.1rem;
- margin: 10px;
- padding: 2px;
- background-color: #3e3c3c;
- border-style: solid;
- border-width: 0.1cm;
- border-color: #3a3838;
- border-radius: 2;
-}
-
 
 body {
-font-family: w95fa;
-background-image: url("assets/21.gif");
-background-size: cover;
-color: #ffffff;
+    color: white;
+    font-family: 'DMSans';
+    font-size: 12pt;
+    background-color: #232121;
 }
 
+a {
+    display: inline-block;
+    margin-right: 5px;
+    margin-left: 5px;
+    text-decoration: dotted;
+    color: white;
+}
 
-
+a:hover {
+    text-decoration: underline;
+}

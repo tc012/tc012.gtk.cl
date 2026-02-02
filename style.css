@@ -10,6 +10,9 @@
     align-items: center;
 }
 
+/* This part was from a project I */
+
+
 .ptitle, {
     margin:15px;
 }
@@ -34,7 +37,7 @@ footer {
 
 body {
     color: white;
-    font-family: "DMSans", "Arial";
+    font-family: 'DMSans';
     font-size: 12pt;
     background-color: #232121;
 }

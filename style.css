@@ -1,6 +1,9 @@
+/* CSS by tc012.gtk.cl, created at 9pm and 3am */ 
+/* Note: held with tape */ 
+
 .nav {
-    background-color: #20201f;
-    border-color: #484444;
+    background-color: #2a2c31;
+    border-color: #303236;
     border-style: solid;
     border-width: 2px;
     width: 100%;
@@ -10,15 +13,16 @@
     align-items: center;
 }
 
-/* This part was from a project I */
 
 
-.ptitle, {
+.ptitle {
     margin:15px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
 }
 .content {
-    background-color: #20201f;
-    border-color: #484444;
+    background-color: #2a2c31;
+    border-color: #303236;
     border-style: solid;
     border-width: 2px;
     width: 100rem;
@@ -37,9 +41,9 @@ footer {
 
 body {
     color: white;
-    font-family: 'DMSans';
+    font-family: 'MS PGothic', 'sans-serif';
     font-size: 12pt;
-    background-color: #232121;
+    background-color: #1a191f;
 }
 
 a {

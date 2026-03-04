@@ -1,0 +1,67 @@
+.main-container {
+    display: grid;
+    text-align: center;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    max-width: 90rem;
+    width: 100%;
+    max-height: fit-content;
+    backdrop-filter: blur(10px);
+    background-color: rgba(43, 40, 40, 0.671);
+    margin-left: auto;
+    margin-right: auto;
+    grid-template-areas: 
+    "header header header header"
+    "content content content sidebar"
+    "content content content sidebar"
+    "content content content sidebar";
+}
+
+body {
+    font-family: 'MS PGothic', 'sans-serif';
+    text-rendering: optimizeSpeed;
+    background-color: black;
+    background-image: url('/assets/bg.png');
+    color: white;
+}
+
+.header {
+    border-style: solid;
+    border-width: 2px;  
+    border-color: rgba(255, 255, 255, 0.473);   
+    grid-area: header;
+}
+
+a {
+    color: rgba(255, 255, 255, 0.596);
+    margin-right: 5px;
+    display: inline-block;
+}
+
+.content {
+    border-style: solid;
+    border-width: 2px; 
+    border-color: rgba(255, 255, 255, 0.473);   
+    grid-area: content;
+}
+
+.sidebar {
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgba(255, 255, 255, 0.473);   
+    grid-area: sidebar;
+    padding-bottom: 4px;
+}
+
+section {
+    gap: 0.1em;
+}
+
+.status_cafe {
+    background-color: rgba(51, 51, 51, 0.685);
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgba(255, 255, 255, 0.473);   
+    grid-area: sidebar;
+    padding-bottom: 25px;
+}

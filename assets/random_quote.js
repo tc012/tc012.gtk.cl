@@ -3,7 +3,7 @@ var quote = [
     "A LITTLE MUSIC!!!",
     "You love TV... don't you?",
     "I'm irrelevant... I'm junk...",
-    "IT'S! TV! TIME!",
+    "IT'S! T.V TIME!",
     "ARE YOU THERE? ARE WE CONNECTED?",
     "I'M A SALESMAN , I WAS NEVER IN IT FOR THE MONEY!!!",
     "Want to buy a bagel? Only $80.",

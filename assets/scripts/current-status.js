@@ -1,10 +1,10 @@
-// code from status.cafe with tweaks
+// code from status.cafe with tweaks!
 console.log('status.cafe script loaded')
 fetch("https://status.cafe/users/tc012/status.json")
   .then( r => r.json() )
   .then( r => {
     if (!r.content.length) {
-      document.getElementById("statuscafe-content").innerHTML = "No status :sob: "
+      document.getElementById("statuscafe-content").innerHTML = "No status :("
       console.log('No status')
       return
     }

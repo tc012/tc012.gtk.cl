@@ -1,11 +1,14 @@
+/* tc012.gtk.cl CSS code */
+/* No AI was used in the creation of this, started in Feb 2026 */
+
 .main-container {
     display: grid;
-    text-align: center;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
+    text-align: left;
+    grid-template-rows: 0.5fr 1fr 1fr 1fr; /* FIRST ROW / SECOND ROW / THIRD ROW / FOURTH ROW */
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    max-width: 75rem;
+    max-width: 65rem;
     width: 100%;
-    max-height: fit-content;
+    height: 100%;
     border-style: solid;
     border-width: 2px;
     border-color: rgba(255, 255, 255, 0.479);
@@ -17,20 +20,32 @@
     "header header header header"
     "content content content sidebar"
     "content content content sidebar"
+    "content content content sidebar"
+    "content content content sidebar"
     "content content content sidebar";
 }
 
 body {
-    font-family: 'MS PGothic', 'sans-serif';
+    font-family: 'Segoe UI', 'sans-serif'; /* Fallback Font */
     text-rendering: optimizeSpeed;
-    background-color: black;
-    background-image: url('/assets/bg.png');
+    background-color: rgb(75, 77, 78);
+    background-image: url('/assets/bg.png'); /* Background */
     color: white;
 }
 
-.header {
+svg {
+    color: white;
+}
+
+ul {
+    list-style-position: outside;
+}
+.header-nav {
+    text-align: center;
     background-color: rgba(37, 35, 35, 0.685);
     grid-area: header;
+    padding-bottom: 1px;
+
 }
 
 a {
@@ -44,33 +59,54 @@ a:hover {
 }
 
 .link-item {
-        margin-right: 5px;
-}
-
-
-.link {
     display: inline-block;
     padding-bottom: 15px;
+    margin-right: 5px;
 }
 
 .content {
+    height: fit-content;
+    padding-left: 45px;
+    padding-right: 45px;
+    padding-bottom: 20px;
     grid-area: content;
 }
 
-.sidebar {
+.sidebar { 
+    text-align: center;
+    align-items: center;
     background-color: rgba(53, 52, 52, 0.123);
     grid-area: sidebar;
     padding-bottom: 4px;
-}
+    width: 100rem;
+    max-width: 20rem;
+    overflow: scroll;
+    
+} 
 
 
-section {
-    gap: 0.1em;
+.sp {
+   background-color: rgba(66, 66, 63, 0.685);
+   padding-top: 2px; 
+   grid-area: sidebar;
+   padding-left: 4px;
+   padding-right: 4px;
+   padding-bottom: 25px; 
 }
 
 .status_cafe {
     background-color: rgba(66, 66, 63, 0.685);
-    padding-top: 2px; 
+    padding-top: 2px;  
     grid-area: sidebar;
     padding-bottom: 25px;
+}
+
+footer {
+    text-align: center;
+    align-content: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 5px;
+    height: fit-content;
 }

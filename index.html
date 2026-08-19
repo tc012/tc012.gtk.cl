@@ -1,33 +1,60 @@
 <!DOCTYPE html>
 <head>
-    <title> tc's website</title>
+    <title> tc's website </title>
     <link rel="stylesheet" href="/style.css">
+    <!-- Scripts -->
     <script src="/assets/scripts/current-status.js" defer> </script>
     <script src="/assets/scripts/random_quote.js" defer> </script>
+    <!-- Metadata -->
+    <meta charset="UTF-8">
+    <meta name="description" content="My website focused on technology and other things.">
+    <meta name="author" content="tc012">
 </head>
-
 <body>
 <div class="main-container">
-    <section class="header"> <h1> tc012's website </h1>
-        <div class="link"> <a class="link-item" href="https://mastodon.social/@andoo221"> Fediverse</a> <a class="link-item" href="javascript:alert('At some point, this will be added.')"> Files </a></div>
+    <section class="header-nav"> 
+        <h1> tc012's website </h1> 
+        <a class="link-item" href="/" > Home </a> <a class="link-item" href="https://cdrt.alwaysdata.net/files" > Files </a>
     </section>
+
     <section class="content"> 
-        <h2> Welcome to my website! </h2>
-        <p> Hi there, I'm tc012 also known as AJ :) I do stuff with technology from time to time.</p>
+        <h2> 👋 Welcome to my website! </h2>
+        <hr> 
+        <p> Hi there, I'm <b> tc012 </b> also known as <b> ajsattic </b>, I do stuff with technology sometimes e.g. home servers etc.</p>
+        <h3> My Interests </h3>
+        <ul>
+            <li> 🖥️ Technology (e.g. Laptops or Desktops)</li>
+            <li> 🦈 Sealife, mainly sharks though because why not? </li>
+        </ul>
+
+        <h3> Internet Links </h2>
+        <a href="https://mastodon.social/@andoo221"> <p> Mastodon </p></a>
+        <a href="https://cdrt.alwaysdata.net"> <p> AD site </p></a>
+        <a href="https://www.last.fm/user/tc_012"> <p> Last.fm </p></a>
+        <h3> Badges? Yeah, got them! </h3>
+        <img src="/assets/img/completelyhandcoded.gif">
     </section>
 
     <section class="sidebar">
-        <p> Other </p>
-      <section class="status_cafe"> <p> Current status <img src="/assets/img/small.gif"> </p>  
-      <div id="statuscafe"><div id="statuscafe-username"> ... </div><div id="statuscafe-content"></div></div>  
-       </section>
+      <section class="status_cafe"> <p> Current status <img src="/assets/img/small.gif"> <a href="https://status.cafe/users/tc012.atom"> Subscribe via Atom</a>  </p>   
+      <div id="statuscafe"><div id="statuscafe-username"> Attempting to load current status.cafe status... </div><div id="statuscafe-content"></div></div>
+     </section>
 
-       <section class="quote">
-         <h4> Random quote:</h4> 
+    <section class="quote">
+        <p> Random quote: </p>
         <div id="random-quote"> ... </div>
-    </section> 
+    </section>
 
+    <section class="sp">
+        <p> New Site Update </p>
+        <p> Fixed issue with header resizing and changed the layout (a bit not too much?)</p>
+    </section>
+</section> 
+</div>
 
-</section>
+ <footer> 
+         
+        Made with love by tc012
+    </footer>
 
 </body>

@@ -6,7 +6,7 @@
     text-align: left;
     grid-template-rows: 0.5fr 1fr 1fr 1fr; /* FIRST ROW / SECOND ROW / THIRD ROW / FOURTH ROW */
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    max-width: 65rem;
+    max-width: 70rem;
     width: 100%;
     height: 100%;
     border-style: solid;
